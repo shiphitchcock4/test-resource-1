@@ -4,5 +4,11 @@ jobs:
     steps :
       - GET res1
       - PUT res1
+ 
+  - name : testres2
+    type : testres2
+    steps :
+      - GET res2
+      - PUT res2
 
   
