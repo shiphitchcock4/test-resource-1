@@ -6,7 +6,7 @@ jobs:
       - PUT res1
  
   - name : testres2
-    type : testres2
+    type : manifest
     steps :
       - GET res2
       - PUT res2
