@@ -2,13 +2,13 @@ jobs:
   - name : testres1
     type : manifest
     steps :
-      - GET res1
+      - GET reso1
       - PUT res1
  
   - name : testres2
     type : manifest
     steps :
-      - GET res2
-      - PUT res2
+      - GET reso2
+      - PUT reso2
 
   
