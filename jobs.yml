@@ -1,8 +1,8 @@
-jobs :
-  - job :
-      name : testres1
-      type : manifest
-      steps :
-        - GET res1
-        - PUT res1
+jobs:
+  - name : testres1
+    type : manifest
+    steps :
+      - GET res1
+      - PUT res1
 
+  
